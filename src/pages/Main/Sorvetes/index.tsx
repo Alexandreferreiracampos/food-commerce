@@ -1,3 +1,10 @@
+import Head from "../../../components/Head/indes";
+import { SnackTitle } from "../../../components/SnackTitle";
+
 export default function Sorvete(){
-    return <h1>Sorvete</h1>
+    return(<>
+        <Head title="Sorvete"/>
+        <SnackTitle>Sorvete</SnackTitle>
+        </>
+        )
 }

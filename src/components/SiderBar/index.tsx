@@ -23,25 +23,25 @@ export function Siderbar(){
             <nav>
                 <ul>
                     <li>
-                        <a href="#"  className="active">
+                        <a href="/"  className="active">
                             <BurgerIcon/>
                             <span>Hambúrgueres</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" >
+                        <a href="pizzas" >
                             <PizzaIcon/>
                             <span>Pizza</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" >
+                        <a href="bebidas" >
                             <SodaIcon/>
                             <span>Bebidas</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" >
+                        <a href="sorvetes" >
                             <IceCreamIcon/>
                             <span>Sorvetes</span>
                         </a>

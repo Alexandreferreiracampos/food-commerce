@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { darken } from "polished";
+
 export const Container  = styled.div`
+
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 gap: 1.75rem;
@@ -10,6 +12,7 @@ gap: 1.75rem;
     justify-items: center;
 
 }
+
 .snack {
     position: relative;
     background: ${({theme})=>theme.colors.black};
@@ -26,7 +29,7 @@ gap: 1.75rem;
     img{
         object-fit: cover;
         width: 100%;
-        height: 11.25rem;
+        height: 10.25rem;
         border-radius: 4px;
         margin-bottom: 0.375rem;
     }

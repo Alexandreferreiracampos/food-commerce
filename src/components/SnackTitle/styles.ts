@@ -5,7 +5,7 @@ export const Title = styled.h1`
 display: flex;
 align-items: center;
 gap: 0.5rem;
-margin-bottom: 3rem;
+margin-bottom: 2rem;
 font-size: ${({theme})=>theme.fontSize["4xl"]};
 font-weight: 500;
 text-decoration: uppercase;

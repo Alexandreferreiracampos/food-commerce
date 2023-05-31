@@ -3,11 +3,12 @@ import Head from "../../../components/Head/indes";
 import { SnackTitle } from "../../../components/SnackTitle";
 import { Snacks } from "../../../components/Snacks";
 import { getBurgers } from "../../../services/api";
+import { SnackData } from "../../../interfaces/SnackData";
 
 
 export default function Burgers(){
 
-    const [burgres, setBurges] = useState([]);
+    const [burgres, setBurges] = useState<SnackData[]>([]);
     
     useEffect(()=>{
         (async ()=>{

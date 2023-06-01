@@ -1,4 +1,4 @@
-import { SnackContext } from "../../../App";
+import { SnackContext } from "../../../contexts/SnackContext";
 import Head from "../../../components/Head/indes";
 import { SnackTitle } from "../../../components/SnackTitle";
 import { Snacks } from "../../../components/Snacks";

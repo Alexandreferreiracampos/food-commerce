@@ -1,13 +1,13 @@
-import { SnackContext } from "../../../contexts/SnackContext";
+
 import Head from "../../../components/Head/indes";
 import { SnackTitle } from "../../../components/SnackTitle";
 import { Snacks } from "../../../components/Snacks";
-import { useContext} from "react";
+import { useSnack } from "../../../hooks/useSnack";
 
 
 export default function Sorvete(){
      
-     const {iceCreams} = useContext(SnackContext);
+     const {iceCreams} = useSnack();
     
     return(<>
         <Head title="Sorvete"/>
